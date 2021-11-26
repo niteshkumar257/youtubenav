@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube navbar</title>
+    <script src="https://kit.fontawesome.com/3e13f1af94.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *
+    {
+margin: 0;
+padding: 0;
+    }
+    .navbar ul
+    {
+       position: sticky;
+        
+    }
+    ul
+    {list-style-type: none;
+        padding: 10px;
+       background-image: linear-gradient(to right,rgb(138, 179, 226),rgb(53, 22, 22),rgb(190, 190, 236));
+        height: auto;
+        
+    }
+    ul li{
+        display: inline;
+        color: rgb(12, 12, 12);
+        margin-left: 15px;
+        font-weight: 400px;
+    
+    }
+    .float
+    {
+        float: right;
+    }
+    .Explore
+    {
+        margin-right: 100px;
+    }
+    li input{
+        width: 300px;
+        border-radius: 20px;
+    }
+    .rounded
+    {
+        height: 20px;
+        border: 2px solid black;
+    border-radius: 15px;
+    }
+    .rounded:hover{
+        border: 2.5px solid black;
+    }
+    @media only screen and (max-width: 600px) {
+ul  li  {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+ .navigation {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+ .float {
+    float: none;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+ .Explore {
+    margin: 0;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+ .search {
+    display: inline;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+ .searchbar {
+    display: inline;
+  }
+
+}
+.container
+{
+    height: 1000px;
+    background-image: linear-gradient(to bottom left,rgb(41, 204, 233),green );
+}
+.mail
+{
+   
+    float: right;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+
+
+</style>
+<body>
+    <nav class="navbar">
+    <ul>
+   <li class="navigation"><i class="fas fa-bars"></i></li> 
+    <li>Biking</li>
+    <li>About </li>
+    <li class="Explore">Explore</li>
+    <li class="float">PRIMIUM</li>
+    <li class="searchbar"><input type="text" name="" id="" placeholder="search here....."></li>
+    <li class="search"><i class="fas fa-search"></i></li>
+</ul>
+</nav>
+<div class="container">
+
+</div>
+<footer>
+    <ul>
+        <li class="mail"><a href="mailto:niteshreddy257@gmail.com">niteshreddy257@gmail.com</a>
+        </li>
+        <div class="text"><li class="copy">&copy; All Rights reserved</li></div>
+    </ul>
+</footer>
+</body>
+</html>
